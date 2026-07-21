@@ -1,0 +1,16 @@
+# 大模型权重文件（MS-CCE 855MB，超出 GitHub 100MB 限制）
+# 请从阿里云服务器获取：/home/FunASR/FunASR-main/outputs_ms_cce_mixed_k135_n4/model.pt.best
+MS-CCE/模型权重/outputs_ms_cce_mixed_k135_n4/model.pt.best
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
