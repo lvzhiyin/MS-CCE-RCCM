@@ -33,7 +33,8 @@ FunASR-main/
 ├── MS-CCE/                # 第四章：多尺度因果上下文嵌入
 │   ├── 训练代码/          # train_ms_cce_mixed_k135.sh（MS-CCE 训练）
 │   ├── 模型结构/          # model_msa_cce.py（覆盖 FunASR 原文件）
-│   ├── 模型权重/          # outputs_ms_cce_mixed_k135_n4/（最优权重，k={1,3,5}, w=0.3）
+│   ├── 模型权重/          # outputs_ms_cce_mixed_k135_n4/（最优权重，855MB，k={1,3,5}, w=0.3）
+│   │                       # ⚠ 因 GitHub 100MB 限制未上传，请从百度网盘获取：链接见仓库首页
 │   ├── 数据生成/          # generate_gunshot_30h.py（靶场数据合成）
 │   ├── 测试代码/          # test_baseline.py（ASR 测试，兼容 MS-CCE 与 CCE）
 │   └── 测试结果/          # 对比实验 / chunk消融 / 卷积核消融 / 注入权重消融 / 门控消融
